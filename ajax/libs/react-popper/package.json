@@ -1,6 +1,6 @@
 {
   "name": "react-popper",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "filename": "index.umd.min.js",
   "description": "React wrapper around PopperJS.",
   "keywords": [
