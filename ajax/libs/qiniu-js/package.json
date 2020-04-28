@@ -5,7 +5,7 @@
     "qiniu",
     "js",
     "upload",
-    "sdk",
+    "sdk"
   ],
   "author": "sdk@qiniu.com",
   "license": "MIT",
