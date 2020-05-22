@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.tsParticles = exports.pJSDom = exports.particlesJS = void 0;
+var AbsorbersPlugin_1 = require("./Plugins/Absorbers/AbsorbersPlugin");
+var EmittersPlugin_1 = require("./Plugins/Emitters/EmittersPlugin");
+var PolygonMaskPlugin_1 = require("./Plugins/PolygonMask/PolygonMaskPlugin");
+var index_slim_1 = require("./index.slim");
+Object.defineProperty(exports, "particlesJS", { enumerable: true, get: function () { return index_slim_1.particlesJS; } });
+Object.defineProperty(exports, "pJSDom", { enumerable: true, get: function () { return index_slim_1.pJSDom; } });
+Object.defineProperty(exports, "tsParticles", { enumerable: true, get: function () { return index_slim_1.tsParticles; } });
+index_slim_1.tsParticles.addPlugin(new AbsorbersPlugin_1.AbsorbersPlugin());
+index_slim_1.tsParticles.addPlugin(new EmittersPlugin_1.EmittersPlugin());
+index_slim_1.tsParticles.addPlugin(new PolygonMaskPlugin_1.PolygonMaskPlugin());
