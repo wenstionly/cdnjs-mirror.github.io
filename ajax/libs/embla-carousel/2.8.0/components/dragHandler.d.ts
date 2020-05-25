@@ -1,0 +1,33 @@
+import { Animation } from './animation';
+import { Counter } from './counter';
+import { Direction } from './direction';
+import { DragTracker } from './dragTracker';
+import { EventDispatcher } from './eventDispatcher';
+import { Limit } from './limit';
+import { ScrollBody } from './scrollBody';
+import { ScrollTo } from './scrollTo';
+import { Vector1D } from './vector1d';
+declare type Params = {
+    element: HTMLElement;
+    target: Vector1D;
+    dragFree: boolean;
+    snapSizes: number[];
+    dragTracker: DragTracker;
+    location: Vector1D;
+    animation: Animation;
+    scrollTo: ScrollTo;
+    scrollBody: ScrollBody;
+    index: Counter;
+    limit: Limit;
+    loop: boolean;
+    events: EventDispatcher;
+};
+export declare type DragHandler = {
+    addActivationEvents: () => void;
+    clickAllowed: () => boolean;
+    direction: Direction;
+    pointerDown: () => boolean;
+    removeAllEvents: () => void;
+};
+export declare function DragHandler(params: Params): DragHandler;
+export {};
