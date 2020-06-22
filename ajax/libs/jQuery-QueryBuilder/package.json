@@ -23,5 +23,6 @@
       ]
     }
   ],
-  "filename": "js/query-builder.min.js"
+  "filename": "js/query-builder.min.js",
+  "version": "2.5.2"
 }

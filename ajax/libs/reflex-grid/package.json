@@ -32,5 +32,6 @@
       ]
     }
   ],
-  "filename": "reflex.min.css"
+  "filename": "reflex.min.css",
+  "version": "2.0.4"
 }

@@ -27,5 +27,6 @@
       ]
     }
   ],
-  "filename": "zebra_dialog.min.js"
+  "filename": "zebra_dialog.min.js",
+  "version": "3.0.2"
 }

@@ -26,5 +26,6 @@
       ]
     }
   ],
-  "filename": "css/material-icons.min.css"
+  "filename": "css/material-icons.min.css",
+  "version": "2.2.0"
 }
