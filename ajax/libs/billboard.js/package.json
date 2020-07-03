@@ -1,1 +1,31 @@
-{"author":"NAVER Corp.","autoupdate":{"fileMap":[{"basePath":"dist","files":["**/*"]}],"source":"npm","target":"billboard.js"},"description":"Re-usable easy interface JavaScript chart library, based on D3 v4+","filename":"billboard.min.js","homepage":"https://naver.github.io/billboard.js/","keywords":["d3","chart","graph","svg"],"license":"MIT","name":"billboard.js","repository":{"type":"git","url":"https://github.com/naver/billboard.js"},"version":"1.12.11"}
+{
+  "author": "NAVER Corp.",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "billboard.js"
+  },
+  "description": "Re-usable easy interface JavaScript chart library, based on D3 v4+",
+  "filename": "billboard.min.js",
+  "homepage": "https://naver.github.io/billboard.js/",
+  "keywords": [
+    "d3",
+    "chart",
+    "graph",
+    "svg"
+  ],
+  "license": "MIT",
+  "name": "billboard.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naver/billboard.js"
+  },
+  "version": "1.12.11"
+}

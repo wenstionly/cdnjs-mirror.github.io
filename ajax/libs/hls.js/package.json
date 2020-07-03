@@ -1,1 +1,32 @@
-{"author":"Guillaume du Pontavice <g.du.pontavice@gmail.com>","autoupdate":{"fileMap":[{"basePath":"dist","files":["**/!(*-demo.*)"]}],"source":"npm","target":"hls.js"},"description":"JavaScript HLS client using MediaSourceExtension","filename":"hls.min.js","homepage":"https://hls-js.netlify.com/demo/","keywords":["hls.js","video","streaming","mediasource","player"],"license":"Apache-2.0","name":"hls.js","repository":{"type":"git","url":"git://github.com/video-dev/hls.js"},"version":"0.14.0"}
+{
+  "author": "Guillaume du Pontavice <g.du.pontavice@gmail.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/!(*-demo.*)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "hls.js"
+  },
+  "description": "JavaScript HLS client using MediaSourceExtension",
+  "filename": "hls.min.js",
+  "homepage": "https://hls-js.netlify.com/demo/",
+  "keywords": [
+    "hls.js",
+    "video",
+    "streaming",
+    "mediasource",
+    "player"
+  ],
+  "license": "Apache-2.0",
+  "name": "hls.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/video-dev/hls.js"
+  },
+  "version": "0.14.0"
+}

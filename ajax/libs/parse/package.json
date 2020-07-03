@@ -1,1 +1,29 @@
-{"autoupdate":{"fileMap":[{"basePath":"dist","files":["**/*"]}],"source":"npm","target":"parse"},"description":"The Parse JavaScript SDK","filename":"parse.min.js","homepage":"https://www.parse.com","keywords":["cloud","mobile","api"],"license":"BSD-3-Clause","name":"parse","repository":{"type":"git","url":"https://github.com/ParsePlatform/Parse-SDK-JS"},"version":"2.14.0"}
+{
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "parse"
+  },
+  "description": "The Parse JavaScript SDK",
+  "filename": "parse.min.js",
+  "homepage": "https://www.parse.com",
+  "keywords": [
+    "cloud",
+    "mobile",
+    "api"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "parse",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ParsePlatform/Parse-SDK-JS"
+  },
+  "version": "2.14.0"
+}

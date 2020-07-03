@@ -1,1 +1,34 @@
-{"author":"Joel Denning","autoupdate":{"fileMap":[{"basePath":"lib","files":["**/*"]}],"source":"npm","target":"single-spa"},"description":"Multiple applications, one page","filename":"umd/single-spa.min.js","homepage":"https://single-spa.js.org","keywords":["single","page","application","framework","react","angular","vue"],"license":"MIT","name":"single-spa","repository":{"type":"git","url":"https://github.com/CanopyTax/single-spa"},"version":"5.5.4"}
+{
+  "author": "Joel Denning",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "lib",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "single-spa"
+  },
+  "description": "Multiple applications, one page",
+  "filename": "umd/single-spa.min.js",
+  "homepage": "https://single-spa.js.org",
+  "keywords": [
+    "single",
+    "page",
+    "application",
+    "framework",
+    "react",
+    "angular",
+    "vue"
+  ],
+  "license": "MIT",
+  "name": "single-spa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CanopyTax/single-spa"
+  },
+  "version": "5.5.4"
+}
