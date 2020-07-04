@@ -1,5 +1,17 @@
 {
   "author": "Material-UI Team",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "**/*.@(js|ts)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "@material-ui/core"
+  },
   "description": "React components that implement Google's Material Design.",
   "filename": "index.js",
   "homepage": "https://material-ui.com/",
@@ -16,17 +28,5 @@
     "type": "git",
     "url": "git+https://github.com/mui-org/material-ui.git"
   },
-  "version": "4.11.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "@material-ui/core",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "**/*.@(js|ts)"
-        ]
-      }
-    ]
-  }
+  "version": "4.11.0"
 }
