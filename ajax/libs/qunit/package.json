@@ -3,6 +3,18 @@
     "name": "jQuery Foundation and other contributors",
     "url": "https://github.com/jquery/qunit/blob/master/AUTHORS.txt"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "qunit",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "qunit"
+  },
   "description": "An easy-to-use JavaScript Unit Testing framework.",
   "filename": "qunit.min.js",
   "homepage": "https://qunitjs.com/",
@@ -18,17 +30,5 @@
     "type": "git",
     "url": "https://github.com/jquery/qunit.git"
   },
-  "version": "2.10.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "qunit",
-    "fileMap": [
-      {
-        "basePath": "qunit",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "2.10.1"
 }
