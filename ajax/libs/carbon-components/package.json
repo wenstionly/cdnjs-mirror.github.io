@@ -1,5 +1,23 @@
 {
   "author": "IBM",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "scripts",
+        "files": [
+          "*.js"
+        ]
+      },
+      {
+        "basePath": "",
+        "files": [
+          "{css,umd}/**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "carbon-components"
+  },
   "description": "The Carbon Design System is IBM’s open-source design system for products and experiences.",
   "filename": "carbon-components.min.js",
   "homepage": "https://www.carbondesignsystem.com/",
@@ -28,23 +46,5 @@
     "type": "git",
     "url": "https://github.com/carbon-design-system/carbon/tree/master/packages/components"
   },
-  "version": "10.16.0-alpha.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "carbon-components",
-    "fileMap": [
-      {
-        "basePath": "scripts",
-        "files": [
-          "*.js"
-        ]
-      },
-      {
-        "basePath": "",
-        "files": [
-          "{css,umd}/**/*"
-        ]
-      }
-    ]
-  }
+  "version": "10.15.0"
 }
