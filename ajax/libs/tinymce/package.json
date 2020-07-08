@@ -1,5 +1,21 @@
 {
   "author": "Johan Sörlin <spocke@moxiecode.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "**/*.min.+(css|js|map)",
+          "skins/lightgray/img/*",
+          "skins/lightgray/fonts/*",
+          "plugins/**/plugin.js",
+          "plugins/**/*.!(js)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "tinymce"
+  },
   "description": "TinyMCE rich text editor",
   "filename": "tinymce.min.js",
   "homepage": "http://www.tinymce.com",
@@ -14,21 +30,5 @@
     "type": "git",
     "url": "https://github.com/tinymce/tinymce.git"
   },
-  "version": "5.4.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "tinymce",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "**/*.min.+(css|js|map)",
-          "skins/lightgray/img/*",
-          "skins/lightgray/fonts/*",
-          "plugins/**/plugin.js",
-          "plugins/**/*.!(js)"
-        ]
-      }
-    ]
-  }
+  "version": "5.4.1"
 }
